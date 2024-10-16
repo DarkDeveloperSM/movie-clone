@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__logo a {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	&__menu {
+		ul {
+			display: flex;
+			justify-content: space-between;
+			font-size: 20px;
+			line-height: 32px;
+
+			li {
+				margin: 0 12px;
+				a:hover {
+					background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+					display: inline-block;
+					background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+					-webkit-background-clip: text;
+					background-clip: text;
+					color: transparent;
+				}
+			}
+		}
+	}
+}

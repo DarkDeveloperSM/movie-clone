@@ -1,0 +1,66 @@
+.rowmovies {
+	margin-top: 50px;
+
+	&__top {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
+		gap: 20px;
+
+		&-title {
+			display: flex;
+			gap: 5px;
+			align-items: center;
+			background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent; 
+				
+			img {
+				width: 40px;
+			}
+		}
+
+		.hr {
+			width: 100%;
+			height: 2px;
+			background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+			box-shadow: 5px 5px 20px white;
+			
+		}
+
+		a {
+			display: inline-block;
+			background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent; /* Matn rangini shaffof qilish */
+			&:hover {
+				display: inline-block;
+				background: linear-gradient(94deg, #2203ff 33.29%, #c40d60 67.01%);
+				-webkit-background-clip: text;
+				background-clip: text;
+				color: transparent; /* Matn rangini shaffof qilish */
+			}
+	
+	
+}
+
+	}
+
+	&__lists {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 20px;
+		margin-top: 20px;
+	}
+
+	&__loadmore {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+	}
+}
+
+
+
